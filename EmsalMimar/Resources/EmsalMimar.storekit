@@ -1,0 +1,103 @@
+{
+  "identifier" : "com.parselmimar",
+  "nonRenewableSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "129.99",
+      "familyShareable" : false,
+      "internalID" : "report_single",
+      "localizations" : [
+        {
+          "description" : "Tek bir proje için profesyonel PDF rapor ve parsel dışa aktarımı (KML, DXF, GeoJSON)",
+          "displayName" : "Tek Rapor",
+          "locale" : "tr"
+        }
+      ],
+      "productID" : "com.parselmimar.report.single",
+      "referenceName" : "Tek Rapor",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "6999.99",
+      "familyShareable" : false,
+      "internalID" : "lifetime_pro",
+      "localizations" : [
+        {
+          "description" : "Tek seferlik ödeme ile ömür boyu Pro erişim. Sınırsız hesaplama, PDF rapor, 3D model, kat planı ve tüm dışa aktarım formatları.",
+          "displayName" : "Ömür Boyu Pro",
+          "locale" : "tr"
+        }
+      ],
+      "productID" : "com.parselmimar.pro.lifetime",
+      "referenceName" : "Ömür Boyu Pro",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_applicationInternalID" : "parselmimar",
+    "_developerTeamID" : ""
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "pro_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "249.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "monthly_pro",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "free_trial",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Sınırsız hesaplama, PDF rapor, 3D model, kat planı ve tüm dışa aktarım formatları.",
+              "displayName" : "Aylık Pro",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "com.parselmimar.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Aylık Pro",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1999.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "yearly_pro",
+          "introductoryOffer" : {
+            "displayPrice" : "0",
+            "internalID" : "free_trial_yearly",
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1W"
+          },
+          "localizations" : [
+            {
+              "description" : "Yıllık ödeme ile %33 tasarruf. Sınırsız hesaplama ve tüm Pro özellikler.",
+              "displayName" : "Yıllık Pro",
+              "locale" : "tr"
+            }
+          ],
+          "productID" : "com.parselmimar.pro.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Yıllık Pro",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
